@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(41, 41, 41);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 1rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 90%;
+    margin: 15px 0;
+}
+
+span {
+    color: blueviolet;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-bottom: 150px;
+}
+
+main hr {
+    border: 0;
+    background: rgb(41, 41, 41);
+    height: 2px;
+    margin: 40px 100px;
+
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection .box {
+    display: flex;
+    background: rgb(41, 41, 41);
+    width: 76vw;
+    height: 2px;
+    margin: 54px 0;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background: rgb(41, 41, 41);
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 25px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.box .vertical-title {
+    position: relative;
+    top: 95px;
+    left: -122px;
+    width: 150px;
+    font-size: 13px;
+}
+
+.vertical-disc {
+    position: relative;
+    top: 152px;
+    left: -190px;
+    color: rgb(99, 99, 97);
+    font-size: 12px;
+    width: 150px;
+}
+.footer{
+    background-color: rgb(41, 41, 41);
+    /*height: 150px;*/
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.footer-rights{
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px 10px;
+}
